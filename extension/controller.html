@@ -1,0 +1,7 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>图片 MCP</title><link rel="stylesheet" href="style.css"><main>
+<h1>图片 MCP 连接</h1>
+<label for="tabs">允许 MCP 操作的 ChatGPT 标签页</label><select id="tabs"></select>
+<div><button id="connect">启动</button><button id="stop" disabled>关闭</button><button id="diagnose">检查页面</button></div>
+<p id="status" role="status">未启动</p>
+<p class="note">“启动”会在本机启动生图服务并连接所选标签页，“关闭”会断开并退出服务。启动后可以关掉这个弹窗。真实请求会用 ChatGPT 额度，不会自动重试提交。</p>
+</main><script type="module" src="controller.js"></script></html>

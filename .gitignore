@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.browser-profile/
+output/
+*.log
+.bridge-token
+extension/connection.json
+native-host/
+release/
+logs/
